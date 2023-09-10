@@ -1,8 +1,8 @@
-# SendEmail
+## SendEmail
 
 This project was generated with [Rust](https://www.rust-lang.org/).
 
-# Requirements
+## Requirements
 
 Configure the following environment variables with data from your SMTP server:
 ```bash
