@@ -1,0 +1,18 @@
+[package]
+name = "send_email"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lettre = "0.10"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+debug = false
+opt-level = "z"
+panic = "abort"
+lto = true
